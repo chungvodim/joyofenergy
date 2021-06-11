@@ -52,7 +52,7 @@ namespace JOIEnergy
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "JOI Energy v1"));
             app.UseRouting();
-            app.UseMiddleware<HttpLoggingMiddleware>();
+            //app.UseMiddleware<HttpLoggingMiddleware>();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

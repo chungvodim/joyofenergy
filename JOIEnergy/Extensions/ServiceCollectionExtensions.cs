@@ -23,7 +23,7 @@ namespace JOIEnergy.Extensions
             services.AddControllers(options =>
             {
                 options.Filters.Add(typeof(HttpGlobalExceptionFilter));
-            });
+            }).AddNewtonsoftJson();
 
             services.AddCors(options =>
             {
