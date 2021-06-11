@@ -3,6 +3,7 @@ using JOIEnergy.Enums;
 using JOIEnergy.Filters;
 using JOIEnergy.Generator;
 using JOIEnergy.Services;
+using JOIEnergy.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
