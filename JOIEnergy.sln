@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JOIEnergy", "JOIEnergy\JOIEnergy.csproj", "{BF722F65-2C35-4ADF-B669-C7841E4E54E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JOIEnergy.Tests", "JOIEnergy.Tests\JOIEnergy.Tests.csproj", "{92951323-A02D-4FC7-A0E3-0C4F37BD7AB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF722F65-2C35-4ADF-B669-C7841E4E54E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF722F65-2C35-4ADF-B669-C7841E4E54E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF722F65-2C35-4ADF-B669-C7841E4E54E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF722F65-2C35-4ADF-B669-C7841E4E54E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92951323-A02D-4FC7-A0E3-0C4F37BD7AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92951323-A02D-4FC7-A0E3-0C4F37BD7AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92951323-A02D-4FC7-A0E3-0C4F37BD7AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92951323-A02D-4FC7-A0E3-0C4F37BD7AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50D06B2F-6422-4D23-B7BC-C747A0C3D855}
+	EndGlobalSection
+EndGlobal
